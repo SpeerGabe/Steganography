@@ -16,4 +16,5 @@ Steganography.o: Steganography.cpp Steganography.h
 main.o: main.cpp Steganography.h
 	$(CC) $(CFLAGS) -c main.cpp
 
-clean:$(RM) *.o *~ 
+clean:
+	$(RM) *.o *~ 
